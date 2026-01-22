@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppet Coders Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="family-header">
+        <h1>FAMILY CHAT</h1>
+        <div class="header-symbol">⚙️</div>
+        <nav class="family-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#messages">Messages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="family-main">
+        <section id="home" class="family-feed">
+            <div class="post-form">
+                <textarea placeholder="Share something with the family..."></textarea>
+                <div class="media-options">
+                    <label class="media-btn">
+                        <input type="file" accept="image/*" class="media-input" data-type="image">
+                        📷 Photo
+                    </label>
+                    <label class="media-btn">
+                        <input type="file" accept="video/*" class="media-input" data-type="video">
+                        🎥 Video
+                    </label>
+                    <label class="media-btn">
+                        <input type="file" accept="audio/*" class="media-input" data-type="audio">
+                        🎤 Voice
+                    </label>
+                </div>
+                <div class="media-preview"></div>
+                <button>Post</button>
+            </div>
+            <div class="posts-container">
+                <!-- Posts will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="gallery" class="family-gallery">
+            <h2>Family Portfolio</h2>
+            <div class="gallery-grid">
+                <!-- Images will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="family-footer">
+        <p>© 2026 Chat Group</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

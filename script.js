@@ -2,8 +2,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Sample family members data
     const familyMembers = [
-        { name: "Mandeep", role: "Parent", photo: "pic/mandeep.jpg" },
-        { name: "Hira", role: "Parent", photo: "pic/hira.jpg" },
+        { name: "Mandeep", role: "Child", photo: "pic/mandeep.jpg" },
+        { name: "Hira", role: "Child", photo: "pic/hira.jpg" },
         { name: "Kaushik", role: "Child", photo: "pic/kaushik.jpg" },
         { name: "Padumi", role: "Child", photo: "pic/padumi.jpg" },
         { name: "Satarupa", role: "Child", photo: "pic/satarupa.jpg" },

@@ -1,1 +1,1 @@
-hello
+small part of JS added
